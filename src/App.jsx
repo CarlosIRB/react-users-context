@@ -1,5 +1,6 @@
 import Profile from "./Components/Profile";
 import UserList from "./Components/UserList";
+import Formulario from "./Components/Formulario";
 import UserState from "./Context/User/UserState";
 function App() {
   return (
@@ -9,6 +10,10 @@ function App() {
           <div className="container p-4">
             <h1 className="bg-info">React Context</h1>
             <div className="row">
+              <div className="col-md-12 my-4">
+                <Formulario />
+              </div>
+
               <div className="col-md-7">
                 <UserList />
               </div>
